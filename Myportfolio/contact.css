@@ -1,0 +1,92 @@
+body, h1, h2, p, ul, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url(https://img.freepik.com/free-vector/gradient-blue-background_23-2149331402.jpg);
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-form {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 300px;
+}
+
+.contact-form h2 {
+    color: black;
+    font-size: 2em;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 1.1em;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: black;
+}
+

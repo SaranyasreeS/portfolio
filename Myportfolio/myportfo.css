@@ -1,0 +1,120 @@
+@import 'utilities.css';
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+}
+header nav .left a{
+color: white;
+text-decoration: none;
+margin-right: 3rem;
+text-transform: uppercase;
+transition: all .2s ease;
+
+}
+header nav .left a:hover{
+color: royalblue;
+}
+header nav {
+padding: 2rem 0;
+}
+header nav .logo{
+margin-right: 3rem;
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+.container{
+max-width: 1152px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.hero{
+padding-top: 2rem;
+padding-bottom: 3rem;
+}
+.hero .left img{
+ border-radius: 50%;
+ width: 300px;
+ height: 300px;
+ margin-left: 200px;
+
+}
+.hero .right {
+border-radius: 50%v;
+color: white;
+margin-top: -7rem;
+}
+.hero .right h6{
+font-size: 1.6rem;
+color: white;
+margin-bottom: 0.5rem;
+}
+.hero .right h1{
+font-size: 4rem;
+font-weight: 100;
+line-height: 1.2;
+margin-bottom: 2rem;
+}
+.hero .right h1 span{
+color: White;
+}
+.hero .right p{
+line-height: 1.9;
+margin-bottom: 2rem;
+}
+.flex{
+display: flex;
+}
+.items-centre{
+align-items: center;
+}
+.justify-between{
+justify-content: space-between;
+}
+.justify-center{
+justify-content: center;
+}
+.justify-right{
+justify-content: right;
+}
+.btn{
+padding: 0.6rem 2rem;
+font-size: 1rem;
+font-weight: 600;
+border: 2px solid transparent;
+outline: none;
+cursor: pointer;
+text-transform: uppercase;
+transition: all .2s ease;
+}
+.btn-primary{
+background-color:royalblue;
+color: white;
+margin-top: -15rem;
+}
+.btn-primary:hover{
+background: transparent;
+border-color: royalblue;
+color: white;
+}
+.flex-1{
+flex: 1;
+}
+.btn-secondary{
+background: transparent;
+color: white;
+border-color: royalblue;
+}
+.btn-secondary:hover{
+background: royalblue;
+color:white;
+}
+
+footer{
+	background-color: royalblue;
+	color: white;
+	text-align: center;
+	
+}
